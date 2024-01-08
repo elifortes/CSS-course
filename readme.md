@@ -1,7 +1,8 @@
-React, NodeJS, Express & MongoDB - The MERN Fullstack Guide
-Built and deployed a mock-up of a web hosting website.
+# React, NodeJS, Express & MongoDB - The MERN Fullstack Guide
 
-Check it out: ?
+> Built and deployed a mock-up of a web hosting website.
+
+> Check it out:
 
 Code
 This is a code along project. Therefore, not planned by me.
