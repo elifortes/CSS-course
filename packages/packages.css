@@ -1,0 +1,25 @@
+.main-section a {
+  display: inline-block;
+  text-decoration: none;
+  background: lightblue;
+  width: 80%;
+  margin: 8px;
+  padding: 8px;
+  border: 2px solid black;
+}
+
+.section-title {
+  color: black;
+}
+
+.section-subtitle {
+  color: grey;
+}
+
+.section-description {
+  color: darkgreen;
+  background: white;
+  border: 1px solid black;
+  margin: 16px;
+  padding: 8px;
+}
