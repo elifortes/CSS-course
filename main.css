@@ -1,18 +1,17 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-}
-
 #product-overview {
-  background: url("images/freedom.jpg");
+  background: url("images/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box;
+  /* background-image: url("images/freedom.jpg");
+  background-size: cover; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat;
+  background-origin: border-box;
+  background-clip: border-box; */
   width: 100%;
   height: 528px;
   padding: 10px;
-
+  /* margin-top: 43px; */
+  /* border: 5px dashed lightcoral; */
+  position: relative;
 }
 
 .section-title {
@@ -23,6 +22,15 @@ body {
 #product-overview h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+.plan-list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 .plan {
@@ -74,8 +82,6 @@ body {
 .plan__features li {
   margin: 8px 0;
 }
-
-
 
 #key-features {
   background: #ff1b68;
