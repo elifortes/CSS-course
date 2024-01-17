@@ -77,6 +77,24 @@ main {
   background: #4F6F52;
 }
 
-#premium .section-subtitle{
+#premium .section-subtitle {
   color: lightgray;
+}
+
+@media (min-width: 40rem) {
+  main {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1500px) {
+  .main-section {
+    border-left: 4px solid #163020;
+  }
+
+  #free {
+    border-right: #163020;
+  }
 }
