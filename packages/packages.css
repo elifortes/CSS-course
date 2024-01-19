@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("anonymousPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AnonymousPro";
+  src: url("anonymousPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
 main {
   padding-top: 2rem;
 }
@@ -52,11 +63,15 @@ main {
 }
 
 .section-description {
+  padding: 1rem;
+  border: 1px solid black;
   color: darkgreen;
   background: white;
-  border: 1px solid black;
-  padding: 1rem;
   font-size: 1.2rem;
+  /* font-size: 1.2rem;
+  font-family: "AnonymousPro", sans-serif; */
+  /* font-weight: 700; */
+  /* font: 700 1.2rem "AnonymousPro", sans-serif; */
 }
 
 .float-fix {
