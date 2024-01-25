@@ -1,3 +1,7 @@
+
+> Built and deployed a mock-up of a web hosting website.
+> Check it out: https://elifortes.github.io/CSS-course/
+
 # Code
 
 - This is a code along project. Therefore, not planned by me.
